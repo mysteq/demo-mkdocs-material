@@ -38,6 +38,7 @@ plugins:
       enable_creation_date: true
   - tags
   - search
+  - material-plausible
 markdown_extensions:
   - toc:
       permalink: true
@@ -45,7 +46,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.superfences 
   - admonition
-  - material-plausible
 extra:
   analytics:
     provider: plausible
