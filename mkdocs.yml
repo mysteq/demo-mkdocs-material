@@ -1,0 +1,7 @@
+site_name: Public docs
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: blue
+    scheme: dark
