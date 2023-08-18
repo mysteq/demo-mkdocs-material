@@ -33,7 +33,10 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - content.action.edit
+    - content.action.view
 repo_url: https://github.com/mysteq/demo-mkdocs-material
+edit_uri: edit/main/docs/
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
