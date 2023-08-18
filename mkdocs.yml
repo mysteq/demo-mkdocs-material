@@ -45,3 +45,8 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.superfences 
   - admonition
+  - material-plausible
+extra:
+  analytics:
+    provider: plausible
+    domain: mysteq.github.io
