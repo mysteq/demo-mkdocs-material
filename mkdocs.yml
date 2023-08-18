@@ -1,7 +1,20 @@
 site_name: Public docs
+site_description: This is a demo site for the Material for MkDocs theme.
 theme:
   name: material
-  palette:
-    primary: blue
-    accent: blue
-    scheme: dark
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.footer
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tracking
+    - navigation.tabs
+repo_url: https://github.com/mysteq/demo-mkdocs-material
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - tags
+  - search
