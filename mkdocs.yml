@@ -1,5 +1,6 @@
 site_name: Public docs
 site_description: This is a demo site for the Material for MkDocs theme.
+copyright: Made on the run 🏃
 theme:
   name: material
   palette:
@@ -64,3 +65,14 @@ extra:
           data: bad
           note: >-
             Thanks for your feedback!
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/something
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/something
+    - icon: fontawesome/brands/github
+      link: https://github.com/mysteq/demo-mkdocs-material
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/something
+    
+    
